@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sperax 22CE10065 - Saloni Shaw
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project, **Sperax**, is designed to perform blockchain-based token management and allowance checking. It provides features such as wallet connection, token tracking, historical data fetching, and token operations like transfer and approval. The goal of this project is to make it easy for users to manage their crypto assets and perform operations on the blockchain through a user-friendly interface.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Wallet Connection**: Allows users to connect their Metamask wallet or manually input their wallet address.
+- **Token Watch List**: Users can add tokens to a watch list by entering contract addresses and track their token balances in real-time.
+- **Historical Data**: Displays historical balance data for tokens based on a selected date range using the Covalent API (or similar).
+- **Allowance Checking**: Users can check and manage their token allowances for smart contracts.
+- **Token Operations**: Perform token transfers to other addresses and approve tokens for specific contracts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup
 
-### `npm test`
+Follow the instructions below to set up and run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps to Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+   \`\`\`bash
+   git clone https://github.com/Saloni210804/Sperax-22CE10065-Saloni-Shaw.git
+   cd Sperax-22CE10065-Saloni-Shaw
+   \`\`\`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**:
+   Run the following command to install all necessary packages:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-### `npm run eject`
+3. **Run the development server**:
+   Once the dependencies are installed, start the development server with:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Access the application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser to access the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Building for Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To create a production build, use the following command:
+\`\`\`bash
+npm run build
+\`\`\`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will generate optimized static files that can be served via any static hosting service.
 
-## Learn More
+## Project Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **User-Friendly Interface**: Intuitive design for easy wallet interaction and token management.
+- **Blockchain Interaction**: Integrates with the Ethereum blockchain via Ethers.js and Web3.js for various token operations.
+- **Data Visualization**: Displays real-time and historical token data using charts and tables.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed by Saloni Shaw as part of the Sperax project.
